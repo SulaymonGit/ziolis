@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input, button {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#sendBtn {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    margin: auto;
+}
+
+.counter button {
+    background: white;
+    border: none;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#counterValue {
+    margin: 0 20px;
+    font-size: 24px;
+}
